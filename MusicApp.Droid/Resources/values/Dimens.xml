@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="detail_backdrop_height">250dp</dimen>
+  <dimen name="backdropTitle">30dp</dimen>
+  <dimen name="backdropSubtitle">18dp</dimen>
+  <dimen name="cardMargin">5dp</dimen>
+  <dimen name="cardAlbumRadius">0dp</dimen>
+  <dimen name="albumCoverHeight">160dp</dimen>
+  <dimen name="albumTitlePadding">10dp</dimen>
+  <dimen name="albumTitle">15dp</dimen>
+  <dimen name="songsCountPaddingBottom">5dp</dimen>
+  <dimen name="songsCount">12dp</dimen>
+  <dimen name="albumOverflowWidth">20dp</dimen>
+  <dimen name="albumOverflowHeight">30dp</dimen>
+  <dimen name="albumOverflowMarginTop">10dp</dimen>
+  
+
+</resources>

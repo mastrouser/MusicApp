@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/cardMargin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/cardAlbumRadius">
+
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/albumCoverHeight"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+        <!-- end of thumbnail -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thumbnail"
+            android:paddingLeft="@dimen/albumTitlePadding"
+            android:paddingTop="@dimen/albumTitlePadding"
+            android:paddingRight="@dimen/albumTitlePadding"
+            android:textColor="@color/albumTitle"
+            android:textSize="@dimen/albumTitle" />
+        <!-- end of title -->
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:paddingBottom="@dimen/songsCountPaddingBottom"
+            android:paddingLeft="@dimen/albumTitlePadding"
+            android:paddingRight="@dimen/albumTitlePadding"
+            android:textSize="@dimen/songsCount" />
+        <!-- end of count -->
+        <ImageView
+            android:id="@+id/overflow"
+            android:layout_width="@dimen/albumOverflowWidth"
+            android:layout_height="@dimen/albumOverflowHeight"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/thumbnail"
+            android:layout_marginTop="@dimen/albumOverflowMarginTop"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_dots" />
+        <!-- end of overflow -->
+      </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

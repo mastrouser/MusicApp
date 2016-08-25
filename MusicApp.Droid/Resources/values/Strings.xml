@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">MusicApp.Droid</string>
+  <string name="applicationName">Music App</string>
+  <string name="backdropTitle">LOVE MUSIC</string>
+  <string name="backdropSubtitle">This season top 20 albums</string>
+  <string name="actionAddFavourite">Play Next</string>
+  <string name="actionPlayNext">This season top 20 albums</string>
+  <string name="actionSettings">Settings</string>
 </resources>
